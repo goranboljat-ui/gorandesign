@@ -1,6 +1,8 @@
-import { notFound } from 'next/navigation'
+'use client'
 
-// Import all page components
+import { notFound } from 'next/navigation'
+import { use } from 'react'
+
 import AbbotsAleHouse from '../../components/AbbotsAleHouse'
 import AhmetsBarber from '../../components/AhmetsBarber'
 import AlibiBar from '../../components/AlibiBar'
@@ -87,11 +89,8 @@ const pages = {
 }
 
 export default function Page({ params }) {
-  const Component = pages[params.slug]
-  if (!Component) return notFound()
+  const slug = params.slug
+  const Component = pages[slug]
+  if (!Component) return <div style={{color:'white',padding:'40px',textAlign:'center'}}>Page not found: {slug}</div>
   return <Component />
-}
-
-export async function generateStaticParams() {
-  return Object.keys(pages).map(slug => ({ slug }))
 }
