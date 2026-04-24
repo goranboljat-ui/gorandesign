@@ -1,4 +1,5 @@
 "use client";
+
 import { useState } from "react";
 
 // GALLERY: 3x1 + 2x1 grid (asymmetric) — čist i funkcionalan za laundry servis

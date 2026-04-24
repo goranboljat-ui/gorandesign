@@ -1,4 +1,5 @@
 "use client";
+
 export default function MurvHairStudio() {
   return (
     <div className="min-h-screen bg-white font-sans">

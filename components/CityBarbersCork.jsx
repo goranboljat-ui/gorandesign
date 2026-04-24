@@ -1,4 +1,5 @@
 "use client";
+
 import { useState } from "react";
 
 // GALLERY: Grid 2x3 — čisto, urban, idealno za city barbershop

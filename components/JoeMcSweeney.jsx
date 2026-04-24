@@ -1,4 +1,5 @@
 "use client";
+
 import { useState } from "react";
 
 // GALLERY: Horizontal scroll strip — za mesnicu, prikazuje proizvode kao u shopu

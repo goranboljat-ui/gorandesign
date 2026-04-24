@@ -1,4 +1,5 @@
 "use client";
+
 import { useState, useEffect, useRef } from "react";
 
 const GOLD = "#c9a84c";
@@ -23,6 +24,7 @@ function AnimFade({ children, style = {}, delay = 0 }) {
 }
 
 const styles = [
+  { name: "Skin Fade", desc: "Seamless blend from skin to length — the signature cut.", img: "https://media.base44.com/images/public/69cad935d23d3a98efa0f99b/89407fc00_generated_image.png" },
   { name: "Taper Fade", desc: "Classic taper with clean lines. Timeless and sharp.", img: "https://media.base44.com/images/public/69cad935d23d3a98efa0f99b/038ac8ff7_generated_image.png" },
   { name: "Beard Trim", desc: "Sculpted, shaped, and perfectly finished.", img: "https://media.base44.com/images/public/69cad935d23d3a98efa0f99b/87b3748aa_generated_image.png" },
   { name: "Hot Towel Shave", desc: "The full straight razor experience. Pure luxury.", img: "https://media.base44.com/images/public/69cad935d23d3a98efa0f99b/a36971525_generated_image.png" },

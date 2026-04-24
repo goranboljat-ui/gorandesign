@@ -1,4 +1,5 @@
 "use client";
+
 import { useState } from "react";
 
 // GALLERY: Horizontal scroll strip — food shots u nizu, kao menu showcase

@@ -1,4 +1,5 @@
 "use client";
+
 import { useState } from "react";
 
 // GALLERY TYPE: Grid 3x2 — čist, profesionalan izgled. Savršen za butcher — prikazuje proizvode i dućan

@@ -1,4 +1,5 @@
 "use client";
+
 import { useState, useEffect, useRef } from "react";
 
 // SCOOPS GELATO — Cobh, Cork

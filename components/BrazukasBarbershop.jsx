@@ -1,4 +1,5 @@
 "use client";
+
 import { useState } from "react";
 
 // GALLERY: Carousel — energičan, živopisan, idealno za brazilski barbershop

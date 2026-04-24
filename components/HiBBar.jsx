@@ -1,4 +1,5 @@
 "use client";
+
 import { useState } from "react";
 
 // GALLERY: Grid 2x2 + 1 wide — Hi-B je misteriozni pub, grid daje taj "fragmentiran" feel

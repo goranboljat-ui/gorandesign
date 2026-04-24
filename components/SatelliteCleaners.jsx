@@ -1,4 +1,5 @@
 "use client";
+
 import { useState } from "react";
 
 // GALLERY TYPE: Full-width cinematic filmstrip (one photo at a time, auto-slide)

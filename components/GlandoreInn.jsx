@@ -1,4 +1,5 @@
 "use client";
+
 import { useState, useEffect, useRef } from "react";
 
 // THE GLANDORE INN — West Cork Gastropub & Seafood

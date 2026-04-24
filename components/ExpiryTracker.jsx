@@ -1,4 +1,5 @@
 "use client";
+
 import { useState, useEffect, useRef } from "react";
 
 const SHELF_LIFE = {"Dairy":7,"Meat & Fish":3,"Fruits & Vegetables":5,"Bread & Bakery":5,"Leftovers":3,"Drinks":14,"Condiments & Sauces":90,"Frozen":90,"Snacks":30,"Other":14};

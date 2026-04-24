@@ -1,4 +1,5 @@
 "use client";
+
 import { useState } from "react";
 
 // GALLERY TYPE: Masonry — 3 kolone, razlicite visine. Idealno za nail salon jer prikazuje razlicite nail art detalje i salon

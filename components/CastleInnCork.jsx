@@ -1,4 +1,5 @@
 "use client";
+
 import { useState } from "react";
 
 // GALLERY TYPE: Carousel (full-width, auto-play, swipe-style) — idealno za pub s atmospherom i live musicom
