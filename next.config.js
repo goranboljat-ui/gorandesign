@@ -1,17 +1,3 @@
-A da, ispravka! Zamijeni sve linkove u `next.config.js` — dodaj `https://www.` ispred svakog base44 linka. Znači umjesto:
-
-```
-destination: 'https://graces-piltown-bites.base44.app'
-```
-
-treba biti:
-
-```
-destination: 'https://www.graces-piltown-bites.base44.app'
-```
-
-Evo cijeli ispravljeni kod, kopiraj i zamijeni:
-
 ```js
 /** @type {import('next').NextConfig} */
 const nextConfig = {
