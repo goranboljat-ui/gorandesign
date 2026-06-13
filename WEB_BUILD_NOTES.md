@@ -1,0 +1,1 @@
+dist je izgrađen, server vrti na portu 8080. React se ne renderuje - root prazan. Verovatno: treba Platform.select za navigator (native-stack vs stack), GestureHandlerRootView web setup, i error boundary da vidi greške.
